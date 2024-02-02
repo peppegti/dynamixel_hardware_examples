@@ -38,7 +38,7 @@
       <parent link="link_0"/>
       <child link="link_1_horn"/>
       <axis xyz="-0.0 -0.0 1.0"/>
-      <limit effort="1" lower="-2.96706" upper="2.96706" velocity="${46 / 60.0 * 2.0 * pi}"/>
+      <limit effort="1" lower="-3.14" upper="3.14" velocity="${46 / 60.0 * 2.0 * pi}"/>
     </joint>
 
     <link name="link_1_horn">
@@ -95,7 +95,7 @@
       <parent link="link_1_motor"/>
       <child link="link_2"/>
       <axis xyz="-0.0 -1.0 -0.0"/>
-      <limit effort="1" lower="-2.1" upper="2.1" velocity="${46 / 60.0 * 2.0 * pi}"/>
+      <limit effort="1" lower="-3.14" upper="3.14" velocity="${46 / 60.0 * 2.0 * pi}"/>
     </joint>
 
 
@@ -127,7 +127,7 @@
       <parent link="link_2"/>
       <child link="link_3_motor"/>
       <axis xyz="-0.0 1.0 -0.0"/>
-      <limit effort="1" lower="-2.1" upper="2.1" velocity="${46 / 60.0 * 2.0 * pi}"/>
+      <limit effort="1" lower="-3.14" upper="3.14" velocity="${46 / 60.0 * 2.0 * pi}"/>
     </joint>
 
 

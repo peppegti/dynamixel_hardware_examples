@@ -31,5 +31,6 @@ joint_trajectory_controller:
     state_interfaces:
       - position
 
-    max_velocity: 0.01
+    constraints:
+      max_velocity: 0.01
     
